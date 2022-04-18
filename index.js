@@ -22,7 +22,7 @@ if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML="🏆 Player 1 Wins !!";
 }
 else if (randomNumber1===randomNumber2){
-      document.querySelector("h1").innerHTML="🎉 Drawc 🎉";
+      document.querySelector("h1").innerHTML="🎉 Draw 🎉";
 }else{
     document.querySelector("h1").innerHTML="🏆 Player 2 Wins!!";
 }
