@@ -77,10 +77,8 @@ footer {
 @media (max-width:985px){
  
   h1{
-      font-family: 'Montserrat';
-      /* font-weight:400; */
-      font-size: 1.5rem;
-      line-height: 1.25; 
+      font-weight:500; 
+      font-size: 5rem;
       text-shadow:none;
       margin: 0;
   }
@@ -90,7 +88,7 @@ footer {
   }
   .btn{
     position: relative;
-   left: 37%; 
+   left: 44%; 
    font-size: 0.60rem;
  }
  p {
