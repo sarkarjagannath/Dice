@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap');
-        </style>
+    </style>
+
+<script>
+    function preload(){
+     location.reload();
+    }
+</script>
+ 
 </head>
 <body>
     <div class="container">
@@ -21,8 +28,21 @@
         <p>player 2</p>
         <img class="img2" src="images/dice6.png" alt="">
     </div>
-</div>
-<input type="button" value="Refresh Page" onClick="refresh">
+  </div> 
+  <!-- <div class="row">
+      <h1>Refresh Me</h1>
+     <div class="col-lg-6 col-md-6 ">
+        <p>player 1</p>
+        <img class="img1" src="images/dice6.png" alt="">
+     </div>
+
+     <div class="col-lg-6 col-md-6">
+        <p>player 2</p>
+        <img class="img2" src="images/dice6.png" alt="">
+      </div>
+   </div> -->
+
+<input class="btn" type="button" value="Tap" onClick="preload();">
 
      <script src="index.js"></script>
 </body>
